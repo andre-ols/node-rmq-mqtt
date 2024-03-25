@@ -1,0 +1,13 @@
+{
+  "name": "poc-node-rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:consumer": "node consumer.js",
+    "start:producer": "node producer.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.5.0"
+  }
+}
