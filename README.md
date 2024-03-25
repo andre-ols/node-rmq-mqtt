@@ -35,3 +35,7 @@ yarn start:publisher
 ```bash
 yarn start:subscriber
 ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
