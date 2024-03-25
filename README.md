@@ -24,16 +24,16 @@ docker run -it -p 15672:15672 -p 5672:5672 -p 1883:1883 -v $PWD/docker/var/lib/r
 yarn install
 ```
 
-3. Run the publisher:
+3. Run the producer:
 
 ```bash
-yarn start:publisher
+yarn start:producer
 ```
 
-4. Run the subscriber:
+4. Run the consumer:
 
 ```bash
-yarn start:subscriber
+yarn start:consumer
 ```
 
 ## License

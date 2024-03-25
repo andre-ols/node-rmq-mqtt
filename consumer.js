@@ -1,7 +1,7 @@
 const mqtt = require('mqtt');
 
 const client = mqtt.connect(`mqtt://localhost:1883`, {
-    clientId: 'subscriber-1',
+    clientId: 'consumer-1',
     password: 'admin',
     username: 'admin',
     clean: false,
@@ -9,7 +9,7 @@ const client = mqtt.connect(`mqtt://localhost:1883`, {
 })
 
 client.on('connect', () => {
-    console.log('subscriber is running');
+    console.log('consumer is running');
     
     client.subscribe('myTopic');
 

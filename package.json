@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:subscriber": "node subscriber.js",
+    "start:consumer": "node consumer.js",
     "start:producer": "node producer.js"
   },
   "dependencies": {
